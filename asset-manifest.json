@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/matching-game/static/css/main.02eb58de.chunk.css",
+    "main.js": "/matching-game/static/js/main.c6039c4a.chunk.js",
+    "main.js.map": "/matching-game/static/js/main.c6039c4a.chunk.js.map",
+    "runtime~main.js": "/matching-game/static/js/runtime~main.c314e423.js",
+    "runtime~main.js.map": "/matching-game/static/js/runtime~main.c314e423.js.map",
+    "static/js/2.54e2c2fb.chunk.js": "/matching-game/static/js/2.54e2c2fb.chunk.js",
+    "static/js/2.54e2c2fb.chunk.js.map": "/matching-game/static/js/2.54e2c2fb.chunk.js.map",
+    "index.html": "/matching-game/index.html",
+    "precache-manifest.d2b6f40fe7f099375e25c671f490fc48.js": "/matching-game/precache-manifest.d2b6f40fe7f099375e25c671f490fc48.js",
+    "service-worker.js": "/matching-game/service-worker.js",
+    "static/css/main.02eb58de.chunk.css.map": "/matching-game/static/css/main.02eb58de.chunk.css.map",
+    "static/media/cat-solid.svg": "/matching-game/static/media/cat-solid.6b48e011.svg",
+    "static/media/crow-solid.svg": "/matching-game/static/media/crow-solid.14678af6.svg",
+    "static/media/dog-solid.svg": "/matching-game/static/media/dog-solid.4028858f.svg",
+    "static/media/dragon-solid.svg": "/matching-game/static/media/dragon-solid.bcc2d9f4.svg",
+    "static/media/fish-solid.svg": "/matching-game/static/media/fish-solid.e1742c36.svg",
+    "static/media/frog-solid.svg": "/matching-game/static/media/frog-solid.355024dd.svg",
+    "static/media/hippo-solid.svg": "/matching-game/static/media/hippo-solid.c03b8464.svg",
+    "static/media/spider-solid.svg": "/matching-game/static/media/spider-solid.a45e6230.svg"
+  }
+}
