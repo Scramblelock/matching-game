@@ -1,4 +1,4 @@
-Matching Game
+## Matching Game
 
 Memory card matching game built with React.
 - The objective of the Matching Game is for the player to turn over pairs of matching cards across eight successive turns. 
