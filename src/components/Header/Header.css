@@ -7,14 +7,27 @@
 }
 
 .RestartButton {
-	padding: 20px 40px;
+	padding: 15px 40px;
 	font-size: 20px;
-	color: white;
-	border-radius: 20px;
-	outline: none;
 	background-color: #A68BD7;
+	color: white;
+	border: 2px solid #A68BD7;
+	border-radius: 25px;
+	outline: none;
+	transition-duration: 0.4s;
+	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+	position: relative;
 }
 
 .RestartButton:hover {
+	color: #A68BD7;
+	background-color: white;
 	cursor: pointer;
+	border-color: #A68BD7;
+	border-spacing: 15px;
+}
+
+.RestartButton:active {
+	top: 1px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
