@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/matching-game/static/css/main.dde0176b.chunk.css",
-    "main.js": "/matching-game/static/js/main.f321c1c7.chunk.js",
-    "main.js.map": "/matching-game/static/js/main.f321c1c7.chunk.js.map",
+    "main.js": "/matching-game/static/js/main.8cb16649.chunk.js",
+    "main.js.map": "/matching-game/static/js/main.8cb16649.chunk.js.map",
     "runtime~main.js": "/matching-game/static/js/runtime~main.c314e423.js",
     "runtime~main.js.map": "/matching-game/static/js/runtime~main.c314e423.js.map",
     "static/js/2.54e2c2fb.chunk.js": "/matching-game/static/js/2.54e2c2fb.chunk.js",
     "static/js/2.54e2c2fb.chunk.js.map": "/matching-game/static/js/2.54e2c2fb.chunk.js.map",
     "index.html": "/matching-game/index.html",
-    "precache-manifest.0dc90616d92c4bee5e17c1dd55d1523e.js": "/matching-game/precache-manifest.0dc90616d92c4bee5e17c1dd55d1523e.js",
+    "precache-manifest.8e5bd6ec07ce8a1fc9d6fba69d2c2ed3.js": "/matching-game/precache-manifest.8e5bd6ec07ce8a1fc9d6fba69d2c2ed3.js",
     "service-worker.js": "/matching-game/service-worker.js",
     "static/css/main.dde0176b.chunk.css.map": "/matching-game/static/css/main.dde0176b.chunk.css.map",
     "static/media/index.css": "/matching-game/static/media/background.a12a9944.png",
