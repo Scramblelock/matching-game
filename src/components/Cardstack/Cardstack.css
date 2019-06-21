@@ -19,3 +19,11 @@
 .card:hover {
 	cursor: pointer;
 }
+
+@media only screen 
+	and (max-device-width: 480px) {
+		.cardstack {
+			padding: 1%;
+			margin: 1%;
+	}
+}

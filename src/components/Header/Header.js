@@ -7,7 +7,12 @@ const Header = ({ onRestartClick }) => (
 		  <p>Matching Game</p>
 	  </div>
 	  <div className='Header-Container'>
-	  	<button onClick={onRestartClick}>New Game</button>
+	  	<button 
+	  		className="RestartButton"
+	  		onClick={onRestartClick}
+	  	>
+	  		New Game
+	  	</button>
 	  </div>
   </div>
 );
