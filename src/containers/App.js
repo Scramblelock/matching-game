@@ -25,6 +25,14 @@ class App extends Component {
 		}
 	}
 
+	onRestartClick = () => {
+		this.setState({
+			cards: this.shuffleArray(images.slice()),
+	    selected: [],
+	    correct: []
+		});
+	}
+
 	onCardClick = (clickedIndex) => {
     const { selected, cards, correct } = this.state;
     if (selected.length === 0) { // selecting a first card
@@ -61,7 +69,8 @@ class App extends Component {
 		const { correct, selected, cards } = this.state;
 	  return (
 	    <div className="App">
-	      <Header />
+	      <Header 
+	      	onRestartClick={this.onRestartClick}/>
 	      <Cardstack 
 	      	isCorrect={correct}
 	      	isSelected={selected}

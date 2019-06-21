@@ -1,9 +1,14 @@
 import React from 'react';
 import './Header.css';
 
-const Header = () => (
-  <div className="App-header">
-	  <p>Matching Game</p>
+const Header = ({ onRestartClick }) => (
+  <div className='Header'>
+	  <div className='App-header'>
+		  <p>Matching Game</p>
+	  </div>
+	  <div className='Header-Container'>
+	  	<button onClick={onRestartClick}>New Game</button>
+	  </div>
   </div>
 );
 
