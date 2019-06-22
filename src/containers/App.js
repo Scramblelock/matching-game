@@ -47,7 +47,7 @@ class App extends Component {
         });
         if (correct.length === 14) {
         	setTimeout(() => {
-        		alert('Congratulations!');
+        		alert(`Congratulations! You won the game. Let's try again!`);
         		this.onRestartClick();
         	}, 1000);
         }
