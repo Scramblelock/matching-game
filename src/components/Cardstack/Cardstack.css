@@ -1,29 +1,28 @@
 .cardstack {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-gap: 50px;
-	background-image: linear-gradient(to bottom right, #00E5EE, #A68BD7);
-	border-radius: 5px;
-	box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.4);
-	padding: 5%;
-	margin: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
+  background-image: linear-gradient(to bottom right, #00e5ee, #a68bd7);
+  border-radius: 5px;
+  box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.4);
+  padding: 5%;
+  margin: 5%;
 }
 
 .card:before {
-	content: "";
+  content: "";
   padding-bottom: 100%;
   display: inline-block;
   vertical-align: middle;
 }
 
 .card:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
-@media only screen 
-	and (max-device-width: 480px) {
-		.cardstack {
-			padding: 1%;
-			margin: 1%;
-	}
+@media only screen and (max-device-width: 480px) {
+  .cardstack {
+    padding: 1%;
+    margin: 1%;
+  }
 }

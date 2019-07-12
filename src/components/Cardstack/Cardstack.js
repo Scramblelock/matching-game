@@ -1,14 +1,13 @@
-import React from 'react';
-import './Cardstack.css';
-import Card from '../Card/Card';
+import React from "react";
+import "./Cardstack.css";
+import Card from "../Card/Card";
 
 const Cardstack = ({ isCorrect, isSelected, cards, onCardClick }) => {
-
-	return(
-		<div className='cardstack'>
-			{cards.map((image, i) => (
-        <Card 
-        	className='card'
+  return (
+    <div className="cardstack">
+      {cards.map((image, i) => (
+        <Card
+          className="card"
           key={i}
           image={image}
           isCorrect={isCorrect.includes(i)}
@@ -16,8 +15,8 @@ const Cardstack = ({ isCorrect, isSelected, cards, onCardClick }) => {
           onSelect={() => onCardClick(i)}
         />
       ))}
-		</div>
-	);
-}
+    </div>
+  );
+};
 
 export default Cardstack;
