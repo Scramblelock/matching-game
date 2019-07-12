@@ -55,29 +55,36 @@ class App extends Component {
       this.setState({ selected: [clickedIndex] });
     } else if (selected.length === 1) {
       // they're selecting a second card
-      if (cards[selected[0]] === cards[clickedIndex]) {
-        // It's a match :)
-        // Add selected cards to `correct` and reset selection
-        this.setState({
-          correct: correct.concat([selected[0], clickedIndex]),
-          selected: []
-        });
-        if (correct.length === 14) {
+      if (selected.length === 0) {
+        // selecting a first card
+        this.setState({ selected: [clickedIndex] });
+      } else if (selected.length === 1) {
+        // selecting a second card
+        if (cards[selected[0]] === cards[clickedIndex]) {
+          // If it's a match: add selected cards to `correct` and reset selection
+          this.setState({
+            correct: correct.concat([selected[0], clickedIndex]),
+            selected: []
+          });
+          if (correct.length === 14) {
+            setTimeout(() => {
+              alert(`Congratulations! You won the game. Let's try again!`);
+              this.onRestartClick();
+            }, 1000);
+          }
+        } else {
+          // It's not a match
+          // Select it for now, and reset selection in a bit
+          // If it's not a match: Select it for now, and reset selection in a bit
+          this.setState({ selected: [selected[0], clickedIndex] });
           setTimeout(() => {
-            alert(`Congratulations! You won the game. Let's try again!`);
-            this.onRestartClick();
-          }, 1000);
+            this.setState({ selected: [] });
+          }, 1500);
         }
-      } else {
-        // It's not a match
-        // Select it for now, and reset selection in a bit
-        this.setState({ selected: [selected[0], clickedIndex] });
-        setTimeout(() => {
-          this.setState({ selected: [] });
-        }, 1500);
       }
+
+      // Otherwise they already have 2 selected and we don't want to do anything
     }
-    // Otherwise they already have 2 selected and we don't want to do anything
   };
 
   shuffleArray = array => {
